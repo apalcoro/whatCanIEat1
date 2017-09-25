@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">WhatCanIEat</string>
+    <string-array name="cat">
+        <item>Cookies</item>
+        <item>Desserts</item>
+        <item>ice creams</item>
+
+    </string-array>
     <string name="text">login to your account</string>
 
 </resources>

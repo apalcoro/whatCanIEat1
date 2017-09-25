@@ -40,7 +40,7 @@
         android:gravity="center"
         android:layout_marginTop="25dp"
         android:text="menu"
-        android:onClick="Registration"
+        android:onClick="menu"
         android:alpha="0.8"
         android:layout_below="@+id/loginTxt"
         android:layout_alignLeft="@+id/loginTxt"
