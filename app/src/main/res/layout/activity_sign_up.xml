@@ -4,6 +4,7 @@
     android:id="@+id/activity_sign_up"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/light"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -15,45 +16,49 @@
         android:id="@+id/txt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="sign up"
+        android:layout_marginTop="20dp"
         android:gravity="center"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        />
+        android:text="create your account"
+        android:textColor="#ffff"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
     <EditText
-        android:layout_marginTop="50dp"
         android:id="@+id/name"
+        style="@style/hi"
         android:layout_below="@+id/txt"
-        android:hint="fullname"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:hint="  name" />
 
-
-        />
     <EditText
         android:id="@+id/pass"
+        style="@style/hi"
         android:layout_below="@+id/name"
-        android:hint="password"
-        android:inputType="textPassword"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint=" password"
+        android:inputType="textPassword" />
 
-
-        />
-    <EditText android:id="@+id/email"
+    <EditText
+        android:id="@+id/email"
+        style="@style/hi"
         android:layout_below="@+id/pass"
-        android:hint="Email"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        />
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Save"
-    android:layout_marginTop="300dp"
-    android:layout_marginLeft="130dp"
-    android:gravity="center"
-    android:id="@+id/save"
-    android:onClick="SignUp"/>
+        android:layout_marginTop="20dp"
+        android:hint="  Email" />
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:onClick="CreateAccount"
+        android:text="Create Account"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
 
 </RelativeLayout>

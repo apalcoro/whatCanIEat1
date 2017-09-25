@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WhatCanIEat</string>
+    <string name="text">login to your account</string>
+
 </resources>

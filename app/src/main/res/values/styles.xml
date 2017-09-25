@@ -8,6 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>
+    <style name="hi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/round_corners</item>
+    </style>
 
 
     <style name="lala">
@@ -15,4 +20,5 @@
         <item name="android:layout_width">200dp</item>
         <item name="android:layout_height">50dp</item>
     </style>
+
 </resources>
